@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Beautiful Webpage</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <script src="myscriptse.js"></script>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><div id="popup" style="display: none;">
+                    <h4>About us
+                    </h4>
+                <p>Here is some example text.</p>
+                <button onclick="hidePopup()">Close</button>
+              </div>
+              <div class="sdf">
+                <button type="button" class="btn btn-primary" button onclick="showPopup()" style="width: 100px; height: 38px;">About</button>
+              </div></li>
+            <li><button class="popup-btn" onclick="openPopup('popup-2')">Contact us</button>
+                <div id="popup-2" class="popup">
+                  <div class="popup-content">
+                    <h5>Aaron Anish Das
+                        <div><h6>aaronanishdas@gmail.com</h6>
+                          <img src="aaron.jpg" height="100">
+                        </div>
+                    </h5>
+                    <div></div>
+                    <h5>Anjan Gorai
+                        <div><h6>aneriomcpronier@gmail.com</h6>
+                          <img src="anjan.jpg" height="100">
+                        </div>
+                    </h5>
+                    <div></div>
+                    <h5>Harsh Baranwal
+                        <div><h6>harshbaranwal@gmail.com</h6>
+                          <img src="harsh.jpg" height="100">
+                        </div>
+                    </h5>
+                    <div ></div>
+                    <button class="close-btn" onclick="closePopup('popup-2')">Close</button>
+                  </div>
+                </div>
+                  
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+	<div class="container">
+		<h1><span>Self Chekout</span></h1>
+		<p> 
+            <div class="i">
+                Welcome to our revolutionary image-based billing system, powered by machine learning and artificial intelligence! Our 
+            state-of-the-art algorithm uses advanced image recognition technology to accurately identify the items in your grocery 
+            or retail store, and instantly generate the corresponding bill amount. No more tedious manual counting or scanning of 
+            items - simply hold up the items to our system, and let us do the rest!
+            </div>
+            <br>
+            <div class="i">
+                Our innovative system is not only incredibly fast and accurate, but also highly secure and reliable. Our algorithm has
+            been extensively trained on a vast dataset of images, ensuring that it can correctly recognize a wide range of items 
+            from different categories and brands. Additionally, our system is designed to work seamlessly with your existing POS 
+            systems and hardware, making it easy and hassle-free to integrate into your store operations.
+            </div>
+            <br>
+            <div class="i">
+                By implementing our image-based billing system, you can significantly improve the efficiency and speed of your billing 
+            process, as well as reduce the potential for errors and inaccuracies. Whether you're a small boutique store or a large 
+            retail chain, our system can help you streamline your operations, enhance customer satisfaction, and boost your 
+            bottom line. Join the future of retail technology today with our innovative image-based billing solution!
+            </div>
+            </p>
+	</div>
+    <div class="h">
+        <a href="login.html"><img src="login.jpg" alt="Example Image" height="150"></a>
+    </div>
+</body>
+</html>

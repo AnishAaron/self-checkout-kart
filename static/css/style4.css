@@ -1,0 +1,57 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .bill-display {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #fff;
+    height: 400px;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  a {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add background color and animation */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

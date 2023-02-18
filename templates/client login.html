@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Client Login</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+      }
+
+      .container {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #ccc;
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 400px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+      }
+
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+
+      img.avatar {
+        width: 30%;
+        border-radius: 50%;
+      }
+
+      .container label {
+        font-weight: bold;
+      }
+
+      .container p {
+        text-align: center;
+      }
+
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Client Login</h1>
+      <div class="imgcontainer">
+        <img src="client.jpg" alt="Avatar" class="avatar">
+      </div>
+      <form action="/client-login" method="post">
+        <div class="container">
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username" required>
+
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required>
+
+          <!-- <a href="scanning page.html"><button type="submit">Login</button></a> -->
+          <!-- <form action="file:///C:/Users/ANJAN/OneDrive/Desktop/self%20checkout/scanning%20page/scanning%20page.html"> -->
+            <!-- <button class = "submit" type="submit"> -->
+              <!-- <a href="scanning page.html"><button type="submit">Login</button></a> -->
+            <!-- </button> -->
+            <!-- <button onclick="location.href='scanning page.html';">Go to Example.com</button> -->
+            <button onclick="location.href='scanning page.html';">Login</button>
+        </form>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
